@@ -1,6 +1,7 @@
 # vue-pdf-viewer
 
-> vue pdf viewer desinged using pdf.js
+> vue pdf viewer desinged using pdf.js 
+> [View Demo](https://amitjha211.github.io/vue_pdf_example/).
 
 ## Build Setup
 

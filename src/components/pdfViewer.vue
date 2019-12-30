@@ -4,6 +4,15 @@
     <div class="col-md-12">
 
         <pdfTopMenu v-bind:viewer="viewer" />
+
+        <div class="row" v-show="viewer.progressPer <  99" >
+            <div class="col-md-12">
+                <div style="background-color: red; height: 8px"
+                    v-bind:style="{ width : viewer.progressPer + '%' }">
+                </div>
+            </div>
+        </div>
+        
         <pdfContainer v-bind:viewer="viewer" />
     </div>
 </div>
